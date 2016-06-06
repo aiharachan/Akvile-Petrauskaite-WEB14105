@@ -1,0 +1,166 @@
+/* Main CSS */
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    color: #555;
+}
+
+section {
+    margin: 0 auto;
+    padding: 0;
+}
+
+input {
+    background-color: #fff;
+    color: #555;
+    border: 0;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/* teach iframes (YouTube videos etc.) some manners */
+iframe
+{
+  margin: auto;
+  width: 100%;
+}
+
+span {background-color: #fff; padding: 0 15px;}
+span2 {font-size: 0.4em; clear: both; display: block;}
+span3 {color: #ac2328;}
+
+p {margin: 0; padding: 0;}
+
+/* Font Family */
+
+body, a, input {font-family: 'Coming Soon', serif;}
+h1, h2, h3, h4, h5 {font-family: 'Chewy', serif;}
+
+/* Classes */
+
+.full {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button {
+    background-color: #660099;
+    color: #fff;
+    padding: 1em;
+    border: 0px;
+    width: 100%;
+}
+
+.content {
+    padding: 5em 0;
+    background-color: #648e2f;
+    background-size: cover;
+    display: block;
+    clear: both;
+    color: #fff;
+    text-align: center;
+}
+
+.content h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1em 5em;
+    margin: auto;
+}
+
+.content p {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 0 1em 0;
+}
+
+@media all and (max-width: 900px) {
+      
+.content p {
+    width: auto;
+    margin: 0 auto;
+    padding: 0 3em 1em 3em;
+    }
+    
+.content h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1em 5em;
+    font-size: 1em;
+    }
+}
+
+
+.intro {
+    background-color: #648e2f;
+    background-image: url('intro.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.para1 {
+    background-color: #648e2f;
+    background-image: url('para1.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.para2 {
+    background-color: #648e2f;
+    background-image: url('para2.jpg');
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.foot {
+    background-color: #648e2f;
+    background-image: url('foot.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.foot2 {
+    background-color: #648e2f;
+    background-image: url('foot2.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.column {width: 50%; float: left; margin: -50px 0; background-color: #333; display: block;}
+
+/* IDs */
+
+#img_logo {
+    width: 256px;
+    margin-left: -128px;
+    margin-top: -128px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#mc_embed_signup {
+    width: 40em;
+    margin: auto;
+    margin-top: 10em;
+    margin-left: 20em;
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
